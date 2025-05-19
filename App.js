@@ -7,7 +7,7 @@ import Watchlist from './pages/Watchlist';
 import Portfolio from './pages/Portfolio';
 import About from './pages/About';
 import Help from './pages/Help';
-import Style from './App.css';
+import './App.css';
 
 function App(){
     return(
