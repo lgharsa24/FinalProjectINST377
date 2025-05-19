@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #08296a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  margin: 0;
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #f0f4f8;
+  color: #222;
+}
+
+.container {
+  max-width: 800px;
+  margin: 32px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+  padding: 32px 24px;
+}
+
+h1, h2, h3 {
+  color: #1976d2;
+  margin-bottom: 0.5em;
+}
+
+a {
+  color: #1976d2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+input[type="text"], input[type="number"] {
+  padding: 8px 12px;
+  border: 1.5px solid #bdbdbd;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-right: 8px;
+  transition: border 0.2s;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+  border: 1.5px solid #1976d2;
+  outline: none;
+}
+
+button {
+  padding: 8px 16px;
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #1565c0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0;
+  background: #fafbfc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px 10px;
+  text-align: left;
+}
+
+th {
+  background: #e3f2fd;
+  color: #1976d2;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background: #f6f8fa;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 16px 5px;
+  }
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+  th, td {
+    padding: 8px 4px;
+  }
+}
